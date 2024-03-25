@@ -24,7 +24,8 @@ body {
 
 /* Code styles */
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 /* Section styles */
@@ -120,4 +121,14 @@ button {
 
 .whatsapp-button:hover {
   background-color: #128c7e;
+}
+.cart-list .image-holder img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100px; /* Set the maximum height of the image */
+  object-fit: contain; /* Preserve the aspect ratio */
+}
+.product-page img {
+  max-width: 50%; /* Set the maximum width of the image */
+  height: auto; /* Maintain the aspect ratio */
 }
